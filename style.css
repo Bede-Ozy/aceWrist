@@ -170,6 +170,7 @@ body .color-themes .purple-theme{
     background: var(--logo-white-bg-gradient);
     /* background-size: 100% 30%; */
     -webkit-text-fill-color: transparent;
+    background-clip: text;
     -webkit-background-clip: text;
 }
 .header ul{
