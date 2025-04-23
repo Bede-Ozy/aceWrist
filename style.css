@@ -168,7 +168,7 @@ body .color-themes .purple-theme{
 
 .header .logo-text{
     background: var(--logo-white-bg-gradient);
-    background-size: 100% 30%;
+    /* background-size: 100% 30%; */
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -234,13 +234,11 @@ body .color-themes .purple-theme{
 .main-content .hero{
     width:100%;
     height:calc(100vh - 70px);
-    /* background-color: yellow; */
+    background-color: yellow;
 
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
     gap:10px;
 }
 
@@ -851,6 +849,7 @@ footer .social-box{
 
         grid-template-rows: repeat(6, 1fr);
         grid-template-columns: 1fr;
+        justify-content: center;
     }
     .hero .hero-card{
         grid-row:span 2;
