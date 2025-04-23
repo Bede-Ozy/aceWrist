@@ -153,7 +153,7 @@ body .color-themes .purple-theme{
     /* position:absolute; */
     /* top:20px;
     right:0; */
-    background:red;
+    /* background:red; */
     display:none;
 }
 
@@ -235,7 +235,7 @@ body .color-themes .purple-theme{
 .main-content .hero{
     width:100%;
     height:calc(100vh - 70px);
-    background-color: yellow;
+    /* background-color: yellow; */
 
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -819,9 +819,6 @@ footer .social-box{
 /* ====================================================== Media Query Responsiveness */
 
 @media (max-width : 500px){
-    body{
-        background-color: yellow;
-    }
     body .color-themes{
         /* background:red; */
         top:0;
