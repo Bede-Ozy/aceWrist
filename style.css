@@ -168,9 +168,9 @@ body .color-themes .purple-theme{
 
 .header .logo-text{
     background: var(--logo-white-bg-gradient);
-    background-clip: text;
     background-size: 100% 30%;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .header ul{
     width:500px;
@@ -239,6 +239,8 @@ body .color-themes .purple-theme{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     gap:10px;
 }
 
@@ -277,9 +279,9 @@ body .color-themes .purple-theme{
 
 .hero .text .title{
     background: var(--logo-white-bg-gradient);
-    background-clip: text;
     background-size: 100% 30%;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     text-transform: uppercase;
 }
 
@@ -881,9 +883,7 @@ footer .social-box{
         gap:15px;
     }
 
-    .header > * {
-        /* background-color: red; */
-    }
+    
     
     .header .logo-box{
         width:200px;
